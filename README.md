@@ -33,6 +33,8 @@ for i in word {
         print("Nil")
     }
 }
+
+결과값
 A
 Nil
 Nil
