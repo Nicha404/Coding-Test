@@ -42,6 +42,6 @@ Nil
 Nil
 ```
 
-Dictionary에서 Key 와 Value 둘 중 하나만 없어도 Nil값으로 처리된다. 그래서 for문에서 Character별로 돌아갈때 유일하게 A값만 정상적으로 출력된다.
+Dictionary에서 Key 와 Value 둘 중 하나만 없어도 Nil값으로 처리된다. 그래서 for문에서 Character별로 돌아갈때 유일하게 첫번째 index값만 정상적으로 출력된다.
 
 
