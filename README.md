@@ -18,4 +18,28 @@ print(result[Int(String(a))!])
 * 10의 자리 - (num % 100) / 10
 * 1의 자리 - num % 10
 
+***
+
+**백준 1157** - Dictionary의 구조에 대해서 헷갈려 고생했던 문제다. 
+
+```swift
+let word = "Apple"
+var dict: [String: Int] = ["A": 3]
+
+for i in word {
+    if dict[String(i)] == 3 {
+        print("A")
+    } else {
+        print("Nil")
+    }
+}
+A
+Nil
+Nil
+Nil
+Nil
+```
+
+Dictionary에서 Key 와 Value 둘 중 하나만 없어도 Nil값으로 처리된다. 그래서 for문에서 Character별로 돌아갈때 유일하게 A값만 정상적으로 출력된다.
+
 
