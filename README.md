@@ -93,7 +93,14 @@ for i in n {
 
 Character를 Int로 형변환하려면 String을 거쳐야 한다!
 
+또한 형변환 시 Int랑 Double만 옵셔널로 묶는다. Character랑 String은 옵셔널로 안 묶음.
 
+```swift
+var a = "a"
+var b = Int(a)
+print(type(of: b))
+//Optional<Int>
+```
 
 
 
