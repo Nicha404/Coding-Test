@@ -68,4 +68,29 @@ Dictionary에서 Key 와 Value 둘 중 하나만 없어도 Nil값으로 처리�
 
 시간초과가 나서 헤맨 문제이다. 변수 선언을 없애고 고차함수를 사용하였더니 해결되었다.
 
+***
+
+**백준 1427번**
+
+```swift
+let n = readLine()!
+var arr: [Int] = []
+
+for i in n {
+    arr.append(Int(String(i))!)
+}
+```
+
+Character를 Int로 형변환하려면 String을 거쳐야 한다!
+
+
+
+
+
+
+
+
+
+
+
  
