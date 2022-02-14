@@ -92,6 +92,24 @@ print(type(of: b))
 //Optional<Int>
 ```
 
+***
+
+**백준 10871**
+
+1.
+
+```swift
+for i in [1, 2, 3] {
+
+}
+```
+
+for문에서 배열을 범위로 쓸 수 있다.
+
+2.
+
+components separatedBy를 쓰면 배열로 반환된다.
+
 
 
 
