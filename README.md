@@ -124,6 +124,22 @@ if a[0] == a[1] && a[0] == a[2] && a[1] == a[2] {
 
 ***
 
+**백준 2562**
+
+```swift
+
+var students = ["Ben", "Ben", "Ben", "Ben", "Ben", "Ben"]
+
+print(students.firstIndex(of: "Ben")!) // 0
+print(students.lastIndex(of: "Ben")!) // 5
+```
+
+firstIndex & lastIndex - 처음 나타난 값과 마지막으로 나타나는 값의 인덱스를 출력함.
+
+***
+
+
+
 
 
 
