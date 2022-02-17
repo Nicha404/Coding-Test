@@ -22,7 +22,7 @@ String을 for문에 넣으면  Character로 한문자씩 loop constant에 들어
 var a: Character = "0"
 var result = [1, 2, 3]
 
-print(result[Int(String(a))!])
+print(result[Int(String(a))!]) // 1
 ```
 
 ***
