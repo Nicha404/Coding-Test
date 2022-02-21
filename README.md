@@ -166,7 +166,7 @@ str.forEach {
 //dd
 ```
 
-띄어쓰기를 기준으로 한 덩어리로 간주한다.
+띄어쓰기를 기준으로 한 덩어리로 간주한다. 타입은 Substring
 
 [forEach 설명 링크](https://babbab2.tistory.com/95)
 
