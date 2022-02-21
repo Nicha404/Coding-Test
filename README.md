@@ -153,6 +153,26 @@ readLine을 map시키면 배열 안에 Character로 출력된다.
 
 ***
 
+**백준 9093**
+
+```swift
+let str = readLine()!.components(separatedBy: " ")
+str.forEach {
+    print($0)
+}
+//d ddd dd
+//d
+//ddd
+//dd
+```
+
+띄어쓰기를 기준으로 한 덩어리로 간주한다.
+
+[forEach 설명 링크](https://babbab2.tistory.com/95)
+
+***
+
+
  
 
 
