@@ -172,6 +172,18 @@ str.forEach {
 
 ***
 
+**백준 1158**
+
+```swift
+var queue = [1, 2, 3]
+let value = queue.remove(at: 2)
+
+print(value) // 3(remove하면 remove한 값을 반환)
+print(queue) // [1, 2]
+```
+
+***
+
 
  
 
