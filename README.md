@@ -85,7 +85,7 @@ for i in n {
 
 Character를 Int로 형변환하려면 String을 거쳐야 한다!
 
-또한 형변환 시 Int랑 Double만 옵셔널로 묶는다. Character랑 String은 옵셔널로 안 묶음. 그러나 Int로 Double을 묶을 때는 옵셔널 x
+또한 형변환 시 Int랑 Double만 옵셔널로 묶는다. Character랑 String은 옵셔널로 안 묶음. 그러나 Int로 Double을 묶을 때는 옵셔널 x.
  
 ```swift
 var a = "a"
