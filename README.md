@@ -183,7 +183,20 @@ print(queue) // [1, 2]
 ```
 
 ***
-    
+
+**백준 2439**
+
+배열 아니어도 그냥 변수에 append 쓸 수 있음.
+
+```swift
+var a = "a"
+a.append("a")
+print(a)
+// "aa"
+```
+
+***
+
  
 
 
