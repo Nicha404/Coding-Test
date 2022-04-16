@@ -195,16 +195,6 @@ print(a)
 // "aa"
 ```
 
-***
-
-**프로그래머스 신규아이디 추천**
-
-```swift
-var s = "Swift"
-var i = s.index(s.startIndex, offsetBy: 2)
-s = String(s[s.startIndex...i])
-print(s) // Swi
-```
 
 
 
