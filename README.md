@@ -43,7 +43,7 @@ print(result[Int(String(a))!]) // 1
 **백준 1157** 
 
 Dictionary의 구조에 대해서 헷갈려 고생했던 문제다. 
-
+   
 ```swift
 let word = "Apple"
 var dict: [String: Int] = ["A": 3]
